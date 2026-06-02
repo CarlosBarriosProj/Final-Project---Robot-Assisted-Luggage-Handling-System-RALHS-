@@ -185,15 +185,15 @@ BTS7960 MOTOR_2(L_EN_2, R_EN_2, LEFT_PWM_2, RIGHT_PWM_2);
 
 // ======= WIFI SECTION =======
 
-const char* SSID_1 = "iPhone";
-const char* PASSWORD_1 = "204618J1";
-const char* MQTT_NAME = "Mqtt Docker";
-const char* BROKER_MQTT = "172.20.10.4";
+const char* SSID_1 = "YourOwn";
+const char* PASSWORD_1 = "YourOwn";
+const char* MQTT_NAME = "YourOwn";
+const char* BROKER_MQTT = "YourOwn";
 
-//const char* SSID_1 = "Calo";
-//const char* PASSWORD_1 = "movistarplus";
-//const char* MQTT_NAME = "CARLOS_BARRIOS_MQTT";
-//const char* BROKER_MQTT = "broker.hivemq.com";
+//const char* SSID_1 = "YourOwn";
+//const char* PASSWORD_1 = "YourOwn";
+//const char* MQTT_NAME = "YourOwn";
+//const char* BROKER_MQTT = "YourOwn";
 
 // ============================================================
 
