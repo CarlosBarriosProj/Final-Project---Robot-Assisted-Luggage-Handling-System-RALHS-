@@ -1,6 +1,6 @@
 # Final-Project - Robot Assisted Luggage Handling System (RALHS)
 
-An autonomous robotic luggage-handling system integrating an ESP32 control unit, UWB tracking, RFID authentication, MQTT communication, and integration of electromechanical systems.
+An autonomous robotic luggage-handling system, featuring an ESP32 control unit, UWB tracking, RFID authentication, MQTT communication, and integration of electromechanical systems.
 
 # Team Project — Algonquin College Final Project (MGT8215)
 
