@@ -17,3 +17,33 @@ An autonomous robotic luggage-handling system integrating an ESP32 control unit,
 - RFID access logic and safety integration.
 - Hardware/software debugging and subsystem integration.
 - Sensor calibration, testing, and system validation.
+
+# Technologies Used :
+
+# Embedded & Communication
+- ESP32 microcontrollers
+- Arduino IDE
+- ESP-NOW wireless communication
+- MQTT protocol
+- RFID authentication system
+
+# Localization & Sensing
+- UWB localization / tracking
+- Ultrasonic obstacle detection
+- MPU / Gyroscope orientation sensing
+
+# Hardware & Safety Features
+- BTS7960 motor drivers
+- LCD user feedback display
+- LED status indicator
+- Emergency buzzer (E-Stop)
+- Embedded safety logic
+
+# Engineering & Integration
+- Embedded debugging
+- Sensor calibration
+- Hardware/software integration
+- Functional testing & system validation
+
+  
+
