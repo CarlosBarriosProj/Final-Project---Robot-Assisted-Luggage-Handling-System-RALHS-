@@ -24,7 +24,7 @@ An autonomous robotic luggage-handling system integrating an ESP32 control unit,
 - ESP32 microcontrollers
 - Arduino IDE
 - ESP-NOW wireless communication
-- MQTT protocol
+- MQTT communication protocol
 - RFID authentication system
 
 # Localization & Sensing
@@ -35,7 +35,7 @@ An autonomous robotic luggage-handling system integrating an ESP32 control unit,
 # Hardware & Safety Features
 - BTS7960 motor drivers
 - LCD user feedback display
-- LEDs status indicator
+- LED status indicators
 - Emergency buzzer (E-Stop)
 - Embedded safety logic
 
