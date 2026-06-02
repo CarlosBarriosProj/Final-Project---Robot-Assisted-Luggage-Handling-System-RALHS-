@@ -35,7 +35,7 @@ An autonomous robotic luggage-handling system integrating an ESP32 control unit,
 # Hardware & Safety Features
 - BTS7960 motor drivers
 - LCD user feedback display
-- LED status indicator
+- LEDs status indicator
 - Emergency buzzer (E-Stop)
 - Embedded safety logic
 
