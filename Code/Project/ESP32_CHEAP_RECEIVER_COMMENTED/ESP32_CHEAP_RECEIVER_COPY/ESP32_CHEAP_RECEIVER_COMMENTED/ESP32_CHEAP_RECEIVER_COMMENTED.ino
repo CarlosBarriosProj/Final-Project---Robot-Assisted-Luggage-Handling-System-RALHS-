@@ -1,4 +1,4 @@
-// CARLOS ANTONIO BARRIOS GUZMAN || FINAL PROJECT || 19/04/2026 || MAIN BRAIN (MOTOR DRIVER, MPU, RFID MODULE, TRANSMITTER AND RECEIVER, LEDs, ETC)
+// RALHS FINAL PROJECT || MAIN BRAIN (MOTOR DRIVER, MPU, RFID MODULE, TRANSMITTER AND RECEIVER, LEDs, ETC)
 
 #include <esp_now.h>
 #include <esp_wifi.h>
@@ -98,11 +98,11 @@ unsigned long PREVIOUS_TIME = 0;
 
 // ======= MAC ADDRESS OF RECEIVERS (ESP-NOW PROTOCOL)  =======
 
-uint8_t BROADCAST_ADD_1[] = {0x34, 0x98, 0x7A, 0x73, 0x9A, 0x40};
-uint8_t BROADCAST_ADD_2[] = {0x34, 0x98, 0x7A, 0x73, 0x7B, 0xD8};
-uint8_t BROADCAST_ADD_3[] = {0x34, 0x98, 0x7A, 0x72, 0x24, 0x64};
-uint8_t BROADCAST_ADD_4[] = {0x34, 0x98, 0x7A, 0x72, 0x1A, 0xD4};
-uint8_t BROADCAST_ADD_5[] = {0xB8, 0xD6, 0x1A, 0x13, 0x36, 0x0C};
+uint8_t BROADCAST_ADD_1[] = {0x00, 0x11, 0x22, 0x33, 0x44, 0x55};
+uint8_t BROADCAST_ADD_2[] = {0x00, 0x11, 0x22, 0x33, 0x44, 0x55};
+uint8_t BROADCAST_ADD_3[] = {0x00, 0x11, 0x22, 0x33, 0x44, 0x55};
+uint8_t BROADCAST_ADD_4[] = {0x00, 0x11, 0x22, 0x33, 0x44, 0x55};
+uint8_t BROADCAST_ADD_5[] = {0x00, 0x11, 0x22, 0x33, 0x44, 0x55};
 
 // ============================================================
 
@@ -185,15 +185,15 @@ BTS7960 MOTOR_2(L_EN_2, R_EN_2, LEFT_PWM_2, RIGHT_PWM_2);
 
 // ======= WIFI SECTION =======
 
-const char* SSID_1 = "YourOwn";
-const char* PASSWORD_1 = "YourOwn";
-const char* MQTT_NAME = "YourOwn";
-const char* BROKER_MQTT = "YourOwn";
+const char* SSID_1 = "YOUR_WIFI_SSID";
+const char* PASSWORD_1 = "YOUR_WIFI_PASSWORD";
+const char* MQTT_NAME = "YOUR_MQTT_CLIENT_NAME";
+const char* BROKER_MQTT = "YOUR_MQTT_BROKER_ADDRESS";
 
-//const char* SSID_1 = "YourOwn";
-//const char* PASSWORD_1 = "YourOwn";
-//const char* MQTT_NAME = "YourOwn";
-//const char* BROKER_MQTT = "YourOwn";
+//const char* SSID_1 = "YOUR_WIFI_SSID";
+//const char* PASSWORD_1 = "YOUR_WIFI_PASSWORD";
+//const char* MQTT_NAME = "YOUR_MQTT_CLIENT_NAME";
+//const char* BROKER_MQTT = "YOUR_MQTT_BROKER_ADDRESS";
 
 // ============================================================
 
