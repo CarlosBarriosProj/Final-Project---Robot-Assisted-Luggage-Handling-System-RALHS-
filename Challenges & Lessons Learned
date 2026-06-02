@@ -1,20 +1,23 @@
 
-# UWB Localization Accuracy & Calibration
+#UWB Localization Accuracy & Calibration
 
 Achieving reliable UWB tracking required significant calibration and testing. Factors such as antenna delay, anchor spacing, 
 and physical placement directly affected measurement accuracy and repeatability. Multiple configurations were tested in order to 
 find an anchor layout capable of balancing tracking precision with the physical constraints of the platform.
 
 # Communication & Integration Challenges
+
 Initial communication between subsystems relied on Arduino-based UART wired communication, which introduced reliability and integration 
 issues. To simplify the architecture and reduce cable complexity, the system was redesigned towards a more wireless setup using a second ESP32, 
 improving modularity and overall system organization.
 
 # Navigation Stability & Return Function
+
 Maintaining a stable navigation and implementing a reliable return-to-home behavior required integrating and calibrating a gyroscope-based orientation 
 sensing. The sensor's offsets and movement drift had to be addressed to improve directional stability and return accuracy.
 
 # Safety, Debugging & System Validation
+
 Integrating multiple sensors, controllers, communication protocols, and safety features introduced debugging and validation challenges. Obstacle detection, 
 RFID authorization logic, LED diagnostics, emergency alerts, and subsystem communication required iterative testing and troubleshooting to achieve a 
 reliable operation.
