@@ -2,6 +2,8 @@
 
 An autonomous robotic luggage-handling system, featuring an ESP32 control unit, UWB tracking, RFID authentication, MQTT communication, and integration of electromechanical systems.
 
+Full project demo video showcasing the complete process is available here: https://lnkd.in/e_NYvNZg
+
 # Team Project — Algonquin College Final Project (MGT8215)
 
 # Team Members:
